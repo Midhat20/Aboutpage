@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 49%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>SUVIDHA - Gather to learn</h1>
+  <p>A tech platform for tutors where they can monitor students growth and attentiveness in the class through online quizes and polls.
+</p>
+  <p>To serve user-friendly environment so that teacher can interact with each and every student and their work smoothly and effectively.</p>
+</div>
+
+<h1 style="text-align:center">Platforms</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\hp\Downloads\WhatsApp Image 2020-09-05 at 4.23.52 PM.jpeg" alt="" style="width:100%">
+      <div class="container">
+        <h2>Quiz</h2>
+        <p class="title">A tech platform for everyone. </p>
+        <p>A tech platform for everyone to increase and boost up their knowledge through regular quizes .The tutor takes the quiz after the lecture and get the responses from the attendes.</p>
+        <p>On the other hand, it provide the database of all the attentive students who had done the quiz.. </p>
+        <p><button class="button">Connect</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\hp\Downloads\WhatsApp Image 2020-09-05 at 4.23.51 PM.jpeg" alt="" style="width:100%">
+      <div class="container">
+        <h2>Poll</h2>
+        <p class="title">A tech platform for everyone.</p>
+        <p>As seen nowadays people are more into internet but at this point most of the students  even  teachers  are facing obstacles regarding network issue.
+Your online study partner “SUVIDHA” provides you to access the availability of the students. The teacher provides the poll during the lecture and accordingly notice who so ever is attending the poll or not.</p>
+        <p>.</p>
+        <p><button class="button">Connect</button></p>
+      </div>
+    </div>
+  </div>
+  
+ 
+
+</body>
+</html>
